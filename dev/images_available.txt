@@ -1,0 +1,3 @@
+nanajanashia/argocd-app:1.0
+nanajanashia/argocd-app:1.1
+nanajanashia/argocd-app:1.2
