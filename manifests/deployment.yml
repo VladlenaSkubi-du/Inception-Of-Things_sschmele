@@ -17,5 +17,5 @@ spec:
         image: wil42/playground:v1 # v1 or v2
         ports:
         - containerPort: 8888
-          hostPort: 8888
-      hostNetwork: true # To deal with curl: (52) Empty reply from server from VM
+          # hostPort: 8888
+      # hostNetwork: true # To deal with curl: (52) Empty reply from server from VM
