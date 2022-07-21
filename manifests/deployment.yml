@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: wil-playground
-        image: wil42/playground:v2
+        image: wil42/playground:v2 # or v1
         ports:
         - containerPort: 8888
-      hostNetwork: true
+      hostNetwork: true # To deal with curl: (52) Empty reply from server from VM
